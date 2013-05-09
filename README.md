@@ -4,13 +4,13 @@
 
 ##1. 工程结构
 
-   需要把`adds_on` 里面的文件和文件夹拷贝到功能目录的 `bin\debug\` 和 `bin\release\` 目录下， adds_on 文件内容为：
+需要把`adds_on` 里面的文件和文件夹拷贝到功能目录的 `bin\debug\` 和 `bin\release\` 目录下， adds_on 文件内容为：
    
    1. ant 文件夹包含 ant 源码打包的相关工具
    2. apktool 文件夹包含 apk 打包的相关工具
    3. ClassLibrary1.dll 一个简单的基于.net 3.5 的统计分析SDK 
-   
-   `src` 目录是打包的主要代码：
+
+src 目录是打包的主要代码：
    
    1. Configration.cs 工程配置相关
    2. Utils.cs 工具类

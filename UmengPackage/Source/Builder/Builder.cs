@@ -188,7 +188,7 @@ namespace UmengPackage.Source
         private string generateDstFile(string channel)
         {
 
-            string file_name = string.Format("{0}_{1}.apk", ApplicationName, channel);
+            string file_name = string.Format("tw_{1}.apk", ApplicationName, channel);
 
             string dst_path = Path.Combine("output", ApplicationName);
 
